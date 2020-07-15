@@ -26,7 +26,11 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    <!-- Carrusel-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -65,7 +69,7 @@
               <a class="nav-link js-scroll-trigger" href="#services">Habilidades</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#esperiencia">Esperiencia</a>
+              <a class="nav-link js-scroll-trigger" href="#experiences">Experiencias</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Proyectos</a>
@@ -95,56 +99,179 @@
 
 	
 
-    <div id="about" class="section wb">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="message-box">                        
-                        <h2>Sobre Mi.</h2>
-                        <p> Con experiencia laboral en el desarrollo de aplicaciones web y móviles, he sido capaz de adaptarme a los distintos frameworks y lenguajes de programacion requeridos. De igual manera busco solucionar los problemas que se presenten sin importar el trabajo que esto conlleve. </p>
-
-                        <a href="uploads\CV-Carlos Iglesias.pdf" class="sim-btn btn-hover-new" data-text="Descargar CV"><span>Descargar CV</span></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
-
-                <div class="col-md-6">
-                    <div class="right-box-pro wow fadeIn">
-                        <img src="uploads/about_04.jpg" alt="" class="img-fluid img-rounded">
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
-	
-    <div id="services" class="section lb">
-        <div class="container">
-            <div class="section-title text-left">
-                <h3>Habilidades</h3>
-                <p>A lo largo de mi vida profesional y estudiantil he logrado desarrollar diversas habilidades en el área de la computación.</p>
-            </div><!-- end title -->
-            <div class="right-box-pro2">
-                <div class="container into">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h2 class="skillsTitle"><b> Front End</b></h2>
-                            <h3 class="skillsName">HTML 5 <span class="percent">(100%)</span></h3> <span class="bar"><span id="html"></span></span>
-                            <h3 class="skillsName">CSS <span class="percent">(90%)</span></h3> <span class="bar"><span id="css"></span></span>
-                            <h3 class="skillsName">Bootstrap <span class="percent">(90%)</span></h3> <span class="bar"><span id="bootstrap"></span></span>
-                            <h3 class="skillsName">JavaScript <span class="percent">(90%)</span></h3> <span class="bar"><span id="js"></span></span>
-                            <h3 class="skillsName">JQuery <span class="percent">(90%)</span></h3> <span class="bar"><span id="jq"></span></span>
-                            <h3 class="skillsName">Materialize <span class="percent">(70%)</span></h3> <span class="bar"><span id="materialize"></span></span>
+    <div id="about" class="section bk">
+        <div class="inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="right-box-pro wow fadeIn" style="padding-right: 50px;">
+                            <img src="uploads/aboutF.jpeg" alt="" class="img-fluid img-rounded">
                         </div>
-                        <div class="col-md-6" style="margin-right: 0px;">
-                            <h2 class="skillsTitle"><b> Back End</b></h2>
-                            <h3 class="skillsName">Ruby on Rails <span class="percent">(90%)</span></h3> <span class="bar"><span id="ror"></span></span>
-                            <h3 class="skillsName">MySQL <span class="percent">(90%)</span></h3> <span class="bar"><span id="sql"></span></span>
-                            <h3 class="skillsName">Sails.js <span class="percent">(60%)</span></h3> <span class="bar"><span id="sails"></span></span>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="message-box">                        
+                            <h2>Sobre Mi.</h2>
+                            <p> Soy Lic. en computación con experiencia laboral en el desarrollo de aplicaciones web y móviles, siendo capaz de adaptarme a los distintos frameworks y lenguajes de programacion requeridos, busco solucionar los problemas que se presenten sin importar el trabajo que esto conlleve. </p>
+    
+                            <a href="uploads\CV-Carlos Iglesias.pdf" class="sim-btn btn-hover-new" data-text="Descargar CV"><span>Descargar CV</span></a>
                         </div>
                     </div>
                 </div>
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+            </div>
+        </div>
+    </div>
+
+    <div id="services" class="section gr">
+        <div class="inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 style="margin-right: 20px; font-size: 30px; margin-top: 20px; text-align: right;">Perfil</h3>
+                                <p class="profileTitle" style="margin-top: 30px;">Nombre Completo</p>
+                                <p class="profileData">Carlos Julio Iglesias Monsalve</p>
+                                <p class="profileTitle">Fecha de Nacimiento</p>
+                                <p class="profileData">24 de Octubre de 1997</p>
+                                <p class="profileTitle">Número de telefono</p>
+                                <p class="profileData">+58-412-3785573</p>
+                                <p class="profileTitle">Correo Electronico</p>
+                                <p class="profileData">iglesiasmonsalve.carlosjulio@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7" style="border-left: 1px solid white;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3 style="margin-left: 20px; font-size: 30px; margin-top: 20px;">Mis Habilidades</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 skills">
+                                <p class="pPercent"><span class="skillPercent">100</span><span class="skillSimbol">%</span></p>
+                                <p class="skillText">HTML/CSS</p>
+                            </div>
+                            <div class="col-md-4 skills">
+                                <p class="pPercent"><span class="skillPercent">95</span><span class="skillSimbol">%</span></p>
+                                <p class="skillText">Bootstrap</p>
+                            </div>
+                            <div class="col-md-4 skills">
+                                <p class="pPercent"><span class="skillPercent">90</span><span class="skillSimbol">%</span></p>
+                                <p class="skillText">JavaScript/JQuery</p>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-top: 40px;">
+                            <div class="col-md-4 skills">
+                                <p class="pPercent"><span class="skillPercent">90</span><span class="skillSimbol">%</span></p>
+                                <p class="skillText">Ruby On Rails</p>
+                            </div>
+                            <div class="col-md-4 skills">
+                                <p class="pPercent"><span class="skillPercent">90</span><span class="skillSimbol">%</span></p>
+                                <p class="skillText">Node.js</p>
+                            </div>
+                            <div class="col-md-4 skills">
+                                <p class="pPercent"><span class="skillPercent">90</span><span class="skillSimbol">%</span></p>
+                                <p class="skillText">MySQL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="experiences" class="section bk">
+        <h3 style="margin-right: 20px; font-size: 30px; margin-top: 20px; text-align: center;">Experiencias</h3>
+        <div class="inner" style="page-break-after: 30px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="owl-carousel testimonial-slider">
+                            <div>
+                                <div class="testimonial-v1">
+                                    <div class="testimonial-inner-bg">
+                                    <h3 style="font-size: 20px;">Desarrollador Backend</h3>
+                                    <p style="font-size: 14px; color: white; line-height: 200%;">
+                                        Durante el tiempo que he trabajado en Shokworks he usado tecnologias como Node.js, Express.js, MongoDB, PostgreSQL, docker, e incluso Angular (aún cuando la misma es una tecnologia frontend). con la finalidad de crear y manterner los distintos proyectos de la empresa.
+                                    </p>
+                                    </div>
+                                    <div class="testimonial-author-info">
+                                    <img src="./uploads/shokworks.jpeg" alt="Image" style="width: 100px; height: auto;">
+                                    <h3>Shokworks</h3>
+                                    <span class="d-block position">abril 2020 - Actualidad</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="testimonial-v1">
+                                    <div class="testimonial-inner-bg">
+                                    <h3 style="font-size: 20px;">Desarrollador FullStack</h3>
+                                    <p style="font-size: 14px; color: white; line-height: 200%;">
+                                        Global Consultants Group fue una empresa en crecimiento a traves de la cual tuve la oportunidad de desarrollar una aplicación web para una de las cadenas de farmacia mas grande de Venezuela (Farmatodo). Teniendo asi la oportunidad de utilizar herramientas como Angular.js, Oracle y Sprint.
+                                    </p>
+                                    </div>
+                                    <div class="testimonial-author-info">
+                                    <img src="./uploads/global.jpeg" alt="Image" style="width: 100px; height: auto;">
+                                    <h3>Global Consultants Group</h3>
+                                    <span class="d-block position">noviembre 2019 - febrero 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="testimonial-v1">
+                                    <div class="testimonial-inner-bg">
+                                    <h3 style="font-size: 20px;">Desarrollador FullStack</h3>
+                                    <p style="font-size: 14px; color: white; line-height: 200%;">
+                                        El tiempo en el que trabajé para The Chain me permitio aprender tecnologias nuevas para el desarrollo movil, pudiendo destacar asi el uso de ReactNative. Mientras a su ves utilizaba tecnologias un poco más familiares como lo son Node.js a traves del frameworks Sails.js y Mysql
+                                    </p>
+                                    </div>
+                                    <div class="testimonial-author-info">
+                                    <img src="./uploads/theChain.jpg" alt="Image" style="width: 100px; height: auto;">
+                                    <h3>The Chain</h3>
+                                    <span class="d-block position">febrero 2018 - marzo 2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="testimonial-v1">
+                                    <div class="testimonial-inner-bg">
+                                    <h3 style="font-size: 20px;">Auxiliar Docente</h3>
+                                    <p style="font-size: 14px; color: white; line-height: 200%;">
+                                        Como auxiliar docente de la Universidad Central de Venezuela (UCV), tuve la oportunidad de desarr, mantener y actualizar una aplicación web propia de la facultad de ciencias para el ingreso de profesores de dedicacion exclusiva. Durante el desarrollo y mantenimiento de la misma se emplearon herramientas como Ruby on Rails y MySQL
+                                    </p>
+                                    </div>
+                                    <div class="testimonial-author-info">
+                                    <img src="./uploads/ucv.png" alt="Image" style="width: 100px; height: auto;">
+                                    <h3>Universidad Central de Venezuela</h3>
+                                    <span class="d-block position">enero 2017 - diciembre 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="testimonial-v1">
+                                    <div class="testimonial-inner-bg">
+                                    <h3 style="font-size: 20px;">Licenciado en Computación</h3>
+                                    <p style="font-size: 14px; color: white; line-height: 200%;">
+                                        Logrando obtener el titulo de Lic. en computación en 9 semestres y obteniendo el reconocimiento de premio especial de grado por mis meritos academicos busque adquirir de la mejor manera posible todos los conocimientos que me podia ofreser la casa de estudio.
+                                    </p>
+                                    </div>
+                                    <div class="testimonial-author-info">
+                                    <img src="./uploads/ucv.png" alt="Image" style="width: 100px; height: auto;">
+                                    <h3>Universidad Central de Venezuela</h3>
+                                    <span class="d-block position">noviembre 2014 - diciembre 2020</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 	
 	<div id="esperiencia" class="section lb">
 		<div class="container">
@@ -153,24 +280,65 @@
                 <p>Durante el tiempo que he empleado como desarrollador he realizado multiples proyecto moviles, de front-end y back-end.</p>
             </div><!-- end title -->
 			<div class="row">
+                <div class="col-md-6 timeLine">
+                    <div class="timeCard timeCardleft">
+                        <div class="triangle"></div>
+                        <div class="circle"></div>
+                        <h1>2020 - Actualidad</h1>
+                        <h3>Desarrollador Backend</h3>
+                        <h4>Shokworks</h4>
+                    </div>
+                </div>
                 <div class="col-md-6">
-                    <div class="target">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-4 img-box">
-                                    <img src="uploads/ucv.png" alt="UCV" style="width: 100%; height: auto;">
-                                </div>
-                                <div class="col-md-8">
-                                    <div>
-                                        <h1>2009 – 2014</h1>
-                                    </div>
-                                    <div>
-                                        <h3>Bachiller en Ciencias</h3>
-                                        <h4>U.E.C Edith Stain</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </div>       
+            </div>
+            <div class="row">
+                <div class="col-md-6 timeLine">
+                </div>
+                <div class="col-md-6">
+                    <div class="timeCard timeCardRight">
+                        <div class="triangle"></div>
+                        <div class="circle"></div>
+                        <h1>2019 - 2020</h1>
+                        <h3>Desarrollador Full Stack</h3>
+                        <h4>Global Consultants Group </h4>
+                    </div>
+                </div>       
+            </div>
+            <div class="row">
+                <div class="col-md-6 timeLine">
+                    <div class="timeCard timeCardleft">
+                        <div class="triangle"></div>
+                        <div class="circle"></div>
+                        <h1>2018 - 2019</h1>
+                        <h3>Desarrollador Backend</h3>
+                        <h4>The Chain</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                </div>       
+            </div>
+            <div class="row">
+                <div class="col-md-6 timeLine">
+                </div>
+                <div class="col-md-6">
+                    <div class="timeCard timeCardRight">
+                        <div class="triangle"></div>
+                        <div class="circle"></div>
+                        <h1>2019 - 2020</h1>
+                        <h3>Auxiliar Docente</h3>
+                        <h4>Universidad Central de Venezuela</h4>
+                    </div>
+                </div>       
+            </div>
+            <div class="row">
+                <div class="col-md-6 timeLine">
+                    <div class="timeCard timeCardleft">
+                        <div class="triangle"></div>
+                        <div class="circle"></div>
+                        <h1>2014 - 2019</h1>
+                        <h3>Lic. en Computación</h3>
+                        <h4>Universidad Central de Venezuela</h4>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -484,6 +652,18 @@
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
+    <script src="js/owl.carousel.min.js"></script> <!-- Modernizr -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            nav:true,
+            autoplay: true,
+            autoplayTimeout: 10000,
+            autoplayHoverPause: true,
+            smartSpeed: 500,
+            items:1
+        })
+    </script>
 
 </body>
 </html>
